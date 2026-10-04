@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(153, 140, 122);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    background-color: rgb(26, 24, 24);
+    color: white;
+    text-align: center;
+}
+.header h2{
+    display: inline-block;
+}
+.header h2 i{
+    position: relative;
+    left: -10px;
+}
+.navbar{
+    background: linear-gradient(90deg,red,#dd2476);
+    overflow: hidden;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-left: 140px;
+}
+.navbar ul li a i{
+    position: relative;
+    left: -5px;
+}
+.navbar ul li a{
+    color: bisque;
+    font-size: 15px;
+    text-decoration: none;
+    transition-property: text-decoration, background,color;
+    transition-duration: 2s;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    background-color: azure;
+    color: rgb(143, 11, 191);
+}
+.banner{
+    
+}

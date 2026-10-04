@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <style>
+        .banner{
+            background-image: url(shop.jpeg);
+            height: 400px;
+            /* background-size: 100% 300px; */
+            top: -4px;
+            color: white;
+            text-size-adjust:2px ;
+            font-size: 70px;
+            text-shadow: 2px 2px 5px;
+            animation: ani;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+        }
+        @keyframes ani{
+            from{
+                opacity: 0; transform: translateY(-10px);
+            }
+            to{
+                opacity: 1;transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2><i class="fa-solid fa-cart-flatbed-suitcase"></i>E-Cart Store</h2>
+    </div>
+    <!-- Navbar section -->
+    <div class="navbar">
+        <ul>
+            <li><a href=""><i class="fa-solid fa-house-user"></i>Home</a></li>
+            <li><a href=""><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+            <li><a href=""><i class="fa-solid fa-user-plus"></i>Signup</a></li>
+            <li><a href=""><i class="fa-solid fa-circle-info"></i>About</a></li>
+            <li><a href=""><i class="fa-regular fa-address-card"></i>Contact</a></li>
+        </ul>
+    </div>
+    <!-- Banner Section -->
+     <div class="banner">
+        <span style="position: relative; left: 36%; top: 100px;">Big Sale Live</span>
+     </div>
+     <div class="products">
+        <h2>Featured Products</h2>
+        <div class="product-card">
+            <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWgxA1b6Lc9HvyyKumxgUt8QjF2JdrwJ9v11cl05l_BA&s=10" alt="">
+            <h3>Macbook 13</h3>
+            <p>Apple Smart PC Macbook</p>
+            <span class="price"> &#8377; 1,39,999</span>
+            <br>
+            <a href="" class="btn">Buy Now</a>
+        </div>
+     </div>
+</body>
+</html>
